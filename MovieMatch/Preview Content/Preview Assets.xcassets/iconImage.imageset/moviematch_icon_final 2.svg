@@ -1,0 +1,40 @@
+<svg width="1024" height="1024" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Heart shape -->
+  <path d="M100 165 C100 165 28 118 28 72 C28 50 46 33 68 33 C82 33 94 41 100 52 C106 41 118 33 132 33 C154 33 172 50 172 72 C172 118 100 165 100 165 Z" fill="#FB7185"/>
+
+  <!-- Clapperboard body -->
+  <rect x="62" y="78" width="76" height="54" rx="5" fill="#FFF1F2"/>
+
+  <!-- Clapperboard top bar -->
+  <rect x="62" y="68" width="76" height="16" rx="4" fill="#FFF7F0"/>
+
+  <!-- Diagonal stripes -->
+  <clipPath id="barclip">
+    <rect x="62" y="68" width="76" height="16" rx="4"/>
+  </clipPath>
+  <g clip-path="url(#barclip)">
+    <line x1="70" y1="68" x2="62" y2="84" stroke="#FB7185" stroke-width="5"/>
+    <line x1="82" y1="68" x2="74" y2="84" stroke="#FB7185" stroke-width="5"/>
+    <line x1="94" y1="68" x2="86" y2="84" stroke="#FB7185" stroke-width="5"/>
+    <line x1="106" y1="68" x2="98" y2="84" stroke="#FB7185" stroke-width="5"/>
+    <line x1="118" y1="68" x2="110" y2="84" stroke="#FB7185" stroke-width="5"/>
+    <line x1="130" y1="68" x2="122" y2="84" stroke="#FB7185" stroke-width="5"/>
+    <line x1="142" y1="68" x2="134" y2="84" stroke="#FB7185" stroke-width="5"/>
+  </g>
+
+  <!-- Divider line -->
+  <line x1="62" y1="84" x2="138" y2="84" stroke="#FB7185" stroke-width="1.5" opacity="0.4"/>
+
+  <!-- Play triangle -->
+  <path d="M90 101 L90 119 L110 110 Z" fill="#FB7185"/>
+
+  <!-- Sparkle big -->
+  <g transform="translate(148, 48)">
+    <path d="M0 -8 L1.5 -1.5 L8 0 L1.5 1.5 L0 8 L-1.5 1.5 L-8 0 L-1.5 -1.5 Z" fill="#FFF7F0" opacity="0.9"/>
+  </g>
+
+  <!-- Sparkle small -->
+  <g transform="translate(158, 62)">
+    <path d="M0 -4 L0.8 -0.8 L4 0 L0.8 0.8 L0 4 L-0.8 0.8 L-4 0 L-0.8 -0.8 Z" fill="#FFF1F2" opacity="0.7"/>
+  </g>
+</svg>
